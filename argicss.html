@@ -1,0 +1,85 @@
+<html>
+<head>
+    <!--css eksternal-->
+    <link rel="stylesheet" href="styling.css">
+
+    <!--css internal-->
+    <style>
+        *{
+            height: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+        body{
+            background-color: rgb(151, 64, 199);
+            display: flex;
+            flex-direction: column;
+        }
+        section{
+            background-color: rgb(200, 141, 251);
+            display: flex;
+            width: 100%;
+            column-gap: 10px;
+        }
+        header{
+            font-size: x-large;
+            padding: 20px;
+            background-color: rgb(216, 162, 255);
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            flex: 2;
+        }
+        aside{
+            background-color: rgb(165, 90, 251);
+            font-size: x-large;
+            display: flex;
+            padding: 0px;
+        }
+        main{
+            background-color: rgb(200, 141, 251);
+            font-style: italic;
+            display: flex;
+            flex: 8;
+        }
+        footer{
+            background-color: rgb(216, 162, 255);
+            text-align: center;
+            font-size: x-large;
+            flex: 2;
+        }
+        article{
+            background-color: rgb(238, 204, 255);
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+</style>
+</head>
+
+<body>
+    <header>
+        <h1>HEADER</h1>
+        <nav>
+            <ul>
+                <li><a href="link.html">Home</a></li>
+                <li><a href="link.html">About</a></li>
+                <li><a href="link.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>Test</aside>
+        <section>
+            <article>bagian 1</article>
+            <article>bagian 2</article>
+            <article>bagian 3</article>
+        </section>
+    </main>
+    <footer>FOOTER</footer>
+
+</body>
+</html>

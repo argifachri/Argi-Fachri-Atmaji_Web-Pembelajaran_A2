@@ -1,0 +1,237 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Section Hero */
+#section-hero {
+    background-color: #eee;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    text-align: center;
+    background-image: url("image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section One */
+#section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.one-left {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.one-right {
+    width: 50%;
+}
+
+.one-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.one-content {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.one-cta {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section Two */
+#section-two {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.two-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.two-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-img {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.two-paragraph {
+    width: 50%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Section Three */
+#section-three {
+    background-color: #eee;
+    padding: 50px;
+}
+
+.three-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.three-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-img {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.three-paragraph {
+    width: 50%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Section Four */
+#section-four {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.four-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.four-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-img {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.four-paragraph {
+    width: 50%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 50px;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.About {
+  width: 30%;
+}
+
+.About h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.About p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.Contact {
+  width: 30%;
+}
+
+.Contact h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.Contact li {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.Countrys {
+  width: 12%;
+}
+
+.Countrys h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.Countrys img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container-contact {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Countrys {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
